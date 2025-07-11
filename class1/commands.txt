@@ -39,3 +39,6 @@ Command to checkout to existing branch
 
 Push changes to github
 - git push origin branch_name
+
+Command to get al the new chages in a branch
+- git pull origin branch_name
