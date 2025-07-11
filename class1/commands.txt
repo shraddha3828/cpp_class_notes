@@ -1,0 +1,41 @@
+Listing files and folders
+- ls
+
+Present working directory
+- pwd
+
+Change directory
+- cd <folder path>
+
+Go back in a directory
+- cd ..
+
+Check if you are authenticated with github
+- ssh git@github.com
+
+Command to get repository into local machine
+- git clone <repo ssh url to clone>
+
+Command to check the current branch
+- git branch
+
+Command to check the status
+- git status
+
+Command to track or stage the files
+- git add <filepath>
+
+Command to track all the files
+- git add . (you should be in correct working directory)
+
+Command to commit the changes with a message
+- git commit -m "Message(whatever message)"
+
+Command to go to a new branch
+- git checkout -b branch_name
+
+Command to checkout to existing branch
+- git checkout branch_name
+
+Push changes to github
+- git push origin branch_name
